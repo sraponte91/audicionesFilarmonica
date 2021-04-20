@@ -1,0 +1,39 @@
+.mani-bnner.jurados-pg{width:100%; height:290px; background:url(/images/jurados_bg.svg) no-repeat; background-size:cover; background-position:top center;}
+.mani-bnner.jurados-pg::after{top:auto; bottom:0; left:0; height:100%; width:100%; background:url(/images/overlay_bg_.svg) no-repeat; background-size:cover;}
+.jurados-mt-pi-sec{padding:40px 0;}
+.jurados-mt-pi-sec .innr-jurado{max-width:900px; width:100%;}
+.jurados-mt-pi-sec .sm-part{width:48%; margin:10px 1%;}
+.jurados-mt-pi-sec .fr-ml-mr{margin-left:-1%; margin-right:-1%;}
+.jurados-mt-pi-sec .lef-im{width:230px; height:220px; overflow:hidden;}
+.jurados-mt-pi-sec .lef-im img{height:auto;}
+.jurados-mt-pi-sec .rig-tx{width:calc(100% - 230px); padding:10px 10px 0 ;}
+.jurados-mt-pi-sec .rig-tx h4{font-size:18px}
+.jurados-mt-pi-sec .main-bx{border-radius:2px; box-shadow:0 0 10px rgba(0,0,0,0.2);}
+.jurados-mt-pi-sec .rig-tx .lnk{padding:20px 0 15px;}
+.jurados-mt-pi-sec .rig-tx .lnk::after{width:calc(100% + 20px); left:-10px; height:1px; background-color:rgba(0,0,0,0.2); top:10px;}
+.jurados-mt-pi-sec .in-contain{display:none;}
+.jurados-mt-pi-sec .txt-img-ds-full .in-contain{display:block;}
+.jurados-mt-pi-sec .txt-img-ds-full .lef-im{height:auto;}
+.jurados-mt-pi-sec .txt-img-ds-full .lef-im img{height:100%;}
+
+@media(max-width:991px){
+     .jurados-mt-pi-sec .lef-im{width:160px;}
+     .jurados-mt-pi-sec .rig-tx{width:calc(100% - 160px);}
+     .jurados-mt-pi-sec .rig-tx h4{font-size:16px;}
+}
+
+@media(max-width:767px){
+     .jurados-mt-pi-sec .container{width:100%; max-width:100%;}
+     .jurados-mt-pi-sec{background-color:#fff;}
+     .jurados-mt-pi-sec .rig-tx{background-color:#fff;}
+}
+
+@media(max-width:640px){
+     .jurados-mt-pi-sec .sm-part{width:100%; margin:0;}
+     .jurados-mt-pi-sec .sm-part + .sm-part{margin-top:20px;}
+}
+@media(max-width:479px){
+     .mani-bnner.jurados-pg{height:210px;}
+     .jurados-mt-pi-sec .lef-im{width:130px;height: 160px;}
+     .jurados-mt-pi-sec .rig-tx{width:calc(100% - 130px);}
+}

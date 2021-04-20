@@ -1,0 +1,8 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "endOfLine":"auto",
+  "vue/attributes-order": "off",
+  "vue/no-v-html": "off",
+  "no-irregular-whitespace": "off"
+}

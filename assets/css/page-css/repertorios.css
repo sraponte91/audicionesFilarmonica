@@ -1,0 +1,72 @@
+.mani-bnner.repertorios-pg{width:100%; height:290px; background:url(/images/repertorios_bg.svg) no-repeat; background-size:cover; background-position:center center;}
+.repertorios-main-tabs{padding:50px 0 0;}
+.repertorios-main-tabs .nav.nav-tabs{max-width:1060px; width:100%; border:none;}
+.repertorios-main-tabs .nav-tabs .nav-item{margin:0;}
+.repertorios-main-tabs .nav-tabs .nav-link{width:150px; text-align:center; border:1px solid #77777a; border-radius:4px; font-size:14px; line-height:1; color:#77777a; padding:12px 5px; font-family: 'Lato', sans-serif; font-weight:700;}
+.repertorios-main-tabs .nav-tabs .nav-item.show .nav-link,
+.repertorios-main-tabs .nav-tabs .nav-item .nav-link.active,
+.repertorios-main-tabs .nav-tabs .nav-item .nav-link:hover{background-color:#ff671b; color:#fff; border-color:#ff671b;}
+.repertorios-main-tabs .nav-tabs .nav-item + .nav-item{margin-left:20px;}
+.repertorios-main-tabs .collapse:not(.show){display:block;}
+.repertorios-main-tabs .tab-content{max-width:850px; width:100%; margin-top:50px;}
+.repertorios-main-tabs .tab-content .card-body{padding:0;}
+.repertorios-main-tabs .tab-content .card-body + .card-body {margin-top:25px}
+.repertorios-main-tabs .tab-iner-contain{background: linear-gradient(90deg, rgba(247, 247, 247, 0) 0%, rgba(247, 247, 247, 0.9) 16%, #f7f7f7 100% );width:100%;}
+.repertorios-main-tabs .tab-iner-contain .img-bx{width:370px; height:270px;}
+.repertorios-main-tabs .cont-bx{width:650px; height:100%; right:0;}
+.repertorios-main-tabs .cont-bx .v-center-tw{left:auto;}
+.repertorios-main-tabs .cont-bx::after{height:100%; width:100%; background: linear-gradient(90deg, rgba(247, 247, 247, 0) 0%, rgba(247, 247, 247, 0.9) 20%, #f7f7f7 100% );}
+.repertorios-main-tabs .cont-bx .innr-cont-bx{width:480px; right:0; z-index:7; padding:20px 40px 20px 30px; flex-wrap:wrap; overflow:auto;}
+.repertorios-main-tabs .cont-bx .innr-cont-bx ul{width:100%; display:block;}
+.repertorios-main-tabs .cont-bx .innr-cont-bx ol{padding:0; margin:0;}
+.repertorios-main-tabs .cont-bx .innr-cont-bx p{width:100%; display:block;}
+.repertorios-main-tabs .innr-cont-bx ul li + li,
+.repertorios-main-tabs .innr-cont-bx ol li + li{margin-top:6px;}
+.repertorios-main-tabs .innr-cont-bx ul li span{width:20px; font-size:13px; line-height:20px;}
+.repertorios-main-tabs .innr-cont-bx ul li span + span{width:calc(100% - 20px); padding-left:2px;}
+.repertorios-main-tabs .img-bx .tab-title{top:auto; left:20px; bottom:20px;}
+.repertorios-main-tabs .img-bx .tab-title h5{color:#fff; font-size:30px;text-shadow: 0px 5px 10px rgb(0 0 0);} 
+.repertorios-main-tabs .nav.nav-tabs{overflow-y:auto; padding:0 0 28px;}
+
+.li-stl{
+     font-weight: 900 !important;
+     color: #3d3d3d !important;
+}
+
+.li-stl{
+     font-weight: 900 !important;
+     color: #3d3d3d !important;
+}
+
+.nml-sl{
+     font-weight: 400 !important;
+     color: #77777a !important;
+}
+
+
+@media(min-width:768px) {     
+     .repertorios-main-tabs .card{border: none;} 
+     .repertorios-main-tabs .card .card-header{display:none;}   
+     .repertorios-main-tabs .card .collapse{display:block;}
+}
+/*@media(max-width:1199px) {     
+     .repertorios-main-tabs .nav.nav-tabs{-ms-flex-pack:start!important;justify-content:flex-start!important; overflow-y:auto; padding:0 0 28px;}
+}*/
+@media(max-width:991px) {     
+     .repertorios-main-tabs .tab-iner-contain .img-bx{width:100%;}
+     .repertorios-main-tabs .cont-bx{width:100%; position:inherit !important;}
+     .repertorios-main-tabs .cont-bx .innr-cont-bx{position:inherit !important; width:100%;}
+     .repertorios-main-tabs .tab-iner-contain{padding:20px; border-radius:10px; background:#ebebeb;}
+     .repertorios-main-tabs .cont-bx::after{display:none;}
+}
+
+@media(max-width:767px) {
+     .repertorios-main-tabs{padding:30px 0;}
+     .repertorios-main-tabs .card{border:none;}
+     .repertorios-main-tabs .cont-bx .innr-cont-bx{padding:15px 0;}
+     .mani-bnner.repertorios-pg::before{position:absolute; content:""; left:auto; right:0; width:55px; height:61px; bottom:-25px; right:20px; z-index:9;}     
+}
+@media(max-width:479px) {
+     .mani-bnner.repertorios-pg{height:210px;}
+     .repertorios-main-tabs .tab-iner-contain .img-bx{height:190px;}
+}

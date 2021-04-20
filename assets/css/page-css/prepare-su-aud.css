@@ -1,0 +1,59 @@
+.mani-bnner.prep-su-audi-bg{width:100%; height:290px; background:url(/images/prepare_su_audicion_bg.svg) no-repeat; background-size:cover; background-position:center center;}
+.video-section{background-color:#f7f7f7; padding:40px 0;}
+.video-section h2{color:#111820; font-size:30px; line-height:1; margin:0 0 30px;}
+.video-section .video-here{background-color:#1a1a1a; width:100%; height:380px; max-width:850px;}
+.que-abt-lajoven.pre-su-ad-pg{padding:40px 0;}
+.que-abt-lajoven.pre-su-ad-pg .part-a{width:48%; margin:0 1%;}
+.que-abt-lajoven.pre-su-ad-pg .one-que:nth-child(2n){background-color:#ededed;}
+.que-abt-lajoven.pre-su-ad-pg .one-que{width:100%; margin:0;}
+.que-abt-lajoven.pre-su-ad-pg .one-que + .one-que{margin-top:15px;}
+.que-abt-lajoven.pre-su-ad-pg .one-que.diff-style{background-color:#43464a; padding:40px 35px;}
+.que-abt-lajoven.pre-su-ad-pg .one-que.diff-style p{color:#fff; padding:0 0 0 90px;}
+.que-abt-lajoven.pre-su-ad-pg .one-que.diff-style p::before{background:url(/images/exclamation-icon.svg) 0 0 no-repeat; height:87px; width:87px; top:-18px; left:0;}
+.jut-line{padding:60px 0 0;}
+.jut-line::after{height:1px; width:480px; background-color:#666; bottom:0; left:0; right:0; margin:auto;}
+.que-about-ytube{background-color:#f7f7f7; padding:50px 0;}
+.que-about-ytube h3{color:#111820; font-size:38px; line-height:1; margin:0 0 10px;}
+.que-about-ytube p{color:#474747; font-size:16px; line-height:24px;}
+.que-about-ytube .btn-seguir-en{margin:30px 0; display:inline-block; border:2px solid #77777a; color:#77777a; font-size:16px; font-weight:700; line-height:1; border-radius:10px; padding:10px 25px 12px; width:180px;}
+.que-about-ytube .btn-seguir-en:hover{background-color:#f47c20; border-color:#f47c20; color:#fff;}
+.zig-zag-se{max-width:900px; width:100%;}
+.zig-zag-se .inr-zig-zag:nth-child(odd){margin:0 0 0 150px;} 
+.zig-zag-se .inr-zig-zag:nth-child(odd) .txt-prt{padding-right:150px;}
+.zig-zag-se .inr-zig-zag:nth-child(even){margin:0 150px 0 0;}
+.zig-zag-se .inr-zig-zag:nth-child(even) .txt-prt{padding-left:150px; order:1;}
+.zig-zag-se .inr-zig-zag:nth-child(even) .num-se{order:2; border-radius:0 10px 10px 0;}
+.zig-zag-se .inr-zig-zag + .inr-zig-zag{margin-top:25px;}
+.zig-zag-se .inr-zig-zag .num-se{width:100px; background-color:#43464a; color:#f47c20; font-size:80px; line-height:1; padding:15px; border-radius:10px 0 0 10px;}
+.zig-zag-se .inr-zig-zag .txt-prt{width:calc(100% - 100px); padding:25px 50px;}
+.zig-zag-se .inr-zig-zag .txt-prt::after{background:linear-gradient(90deg, #dadada 76%, rgba(218, 218, 218, 0) 100%); height:100%; width:100%; left:0; top:0;}
+.zig-zag-se .inr-zig-zag .txt-prt p{z-index:8; color:#111820; font-size:17px; line-height:24px;}
+.zig-zag-se .inr-zig-zag:nth-child(even) .txt-prt::after{-webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); transform:rotate(180deg);}
+
+@media(max-width:767px){
+     .video-section .container{max-width:100%; padding:0;}
+     .que-abt-lajoven.pre-su-ad-pg .part-a{width:100%; margin:0;}
+     .jut-line{display:none;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n+1){margin:0 0 0 60px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n){margin:0 60px 0 0;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n+1) .txt-prt{padding-right:50px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n) .txt-prt{padding-left:50px;}
+     .zig-zag-se .inr-zig-zag + .inr-zig-zag{margin-top:25px;}
+     .zig-zag-se .inr-zig-zag .num-se{width:60px; font-size:40px;}
+     .zig-zag-se .inr-zig-zag .txt-prt{padding:25px 20px; width:calc(100% - 60px);}
+     .mani-bnner.prep-su-audi-bg::before{position:absolute; content:""; left:auto; right:0;width:55px; height:61px; bottom:-25px; right:20px; z-index:9;}     
+}
+@media(max-width:479px){
+     .mani-bnner.prep-su-audi-bg{height:210px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n+1){margin:0 0 0 20px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n){margin:0 20px 0 0;}
+     .zig-zag-se .inr-zig-zag + .inr-zig-zag{margin-top:20px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n+1){margin-right:0;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n+1) .txt-prt{padding-right:25px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n) .txt-prt{padding-left:25px;}
+     .zig-zag-se .inr-zig-zag:nth-child(2n){margin-left:0;}
+     .que-about-ytube h3{font-size:28px;}
+     .zig-zag-se .inr-zig-zag .num-se{font-size:30px; width:30px;}
+     .zig-zag-se .inr-zig-zag .txt-prt{padding:25px 20px; width:calc(100% - 30px);}
+     .zig-zag-se .inr-zig-zag .txt-prt p{font-size:15px;}
+}
